@@ -113,6 +113,22 @@ a {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.icon-conteiner {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    
+    background: #F5F4FA;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+.priorities-icon {
+    width: 70px;
+    height: 70px;
+    
+}
 .mail-icon {
     display:inline-block;
     margin-right: 10px;

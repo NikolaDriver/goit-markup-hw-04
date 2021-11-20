@@ -113,34 +113,15 @@ a {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.icon-conteiner {
-    display: flex;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-    
-    background: #F5F4FA;
-    border-radius: 4px;
-    align-items: center;
-    justify-content: center;
-}
-.priorities-icon {
-    width: 70px;
-    height: 70px;
-    
-}
+
 .mail-icon {
     display:inline-block;
     margin-right: 10px;
-    width: 16px;
-    height: 12px;
     fill: var(--main-text-color);
 }
 .tell-icon {
     display: inline-block;
     margin-right: 10px;
-    width: 10px;
-    height: 16px;
     fill: var(--main-text-color);
 }
 .mail-icon:hover {
@@ -226,7 +207,17 @@ a {
     letter-spacing: 0.03em;
     color: var(--third-title-color);
 }
+.icon-conteiner {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
 
+    background: #F5F4FA;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
 
  .priorities-title:not(:last-child){
     margin-right: 30px;

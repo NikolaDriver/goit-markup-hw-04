@@ -113,10 +113,31 @@ a {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.contacts-link {
+.mail-icon {
+    display:inline-block;
+    margin-right: 10px;
+    width: 16px;
+    height: 12px;
+    fill: var(--main-text-color);
+}
+.tell-icon {
     display: inline-block;
+    margin-right: 10px;
+    width: 10px;
+    height: 16px;
+    fill: var(--main-text-color);
+}
+.mail-icon:hover {
+    fill: var(--accent-color);
+}
+.tell-icon:hover {
+    fill: var(--accent-color);
+}
+.contacts-link {
+    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
+    align-items: center;
 
     color: var(--header-link-color);
     font-weight: 500;

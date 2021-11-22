@@ -300,11 +300,7 @@ a {
     display: flex;
     justify-content: center;
 }
-.team-sociallink-item {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-}
+
 .team-sociallink-item + .team-sociallink-item {
     margin-left: 10px;
 }
@@ -314,20 +310,20 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: var(--main-text-color)
 }
 
-.team-social-link:hover .team-sociall-icon,
-.team-social-link:focus .team-sociall-icon {
+.team-social-link:hover,
+.team-social-link:focus {
+    background-color: var(--accent-color);
     fill: white;
 }
 
-.team-sociallink-item:hover,
-.team-sociallink-item:focus {
-    background-color: var(--accent-color);
-}
-.team-sociall-icon {
-    fill: #AFB1B8;
-}
+
+.team-sociall-icon 
 
 .team-item {
     background: #FFFFFF;
